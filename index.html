@@ -30,30 +30,34 @@
     <div class="scrollblock block-toc">
         <h2>这有啥？</h2>
         <p>
-        <a href="zhoujielun">周杰伦</a>&emsp;&emsp;
+        <a href="#zhoujielun">周杰伦</a>&emsp;&emsp;
         <a href="taozhe">陶喆</a>&emsp;&emsp;
         <a href="yanzhenqing">颜真卿</a>
         <br/>
         <br/>
-        <a href="malong">马龙</a>&emsp;&emsp;
-        <a href="zhouxingchi">周星驰</a>&emsp;&emsp;
-        <a href="#gaodena">Donald E. Knuth</a>
+        <a href="malong">乒乓球</a>&emsp;&emsp;
+        <a href="#zhouxingchi">周星驰</a>&emsp;&emsp;
+        <a href="#coding">Coding......</a>
         <br/>
         <br/>
-        <a href="maozedong">毛泽东</a>&emsp;&emsp;
+        <a href="#maozedong">毛泽东</a>&emsp;&emsp;
         <a href="me">黑色铆钉</a>
         </p>
     </div>
     
-    <a name="gaodena"></a>
-    <div class="scrollblock block-white">
-        <h2>Donald E. Knuth</h2>
+    <a name="coding"></a>
+    <div class="scrollblock block-black">
+        <h2>编程</h2>
         <p>
-        高德纳（Donald E. Knuth），斯坦福大学计算机程序设计艺术荣誉教授，图灵奖得主。
+        不是计算机专业，但是毕竟大学是理工科专业，学过 C 语言，VB，单片机课时候还了解过一点汇编语言，但是都是混学分，不求甚解。
         <br/>
-        为了写他的七卷本著作《编程的艺术》而编制了 TeX 排版系统。
+        ......
         <br/>
-        但或许因为在 TeX 上花的十年时间太长，这部著作至今才写到第四卷。
+        读研时候为了写论文了解到了 LaTeX，于是实验间隙摸鱼工作更加心安理得（后来毕业论文和毕业答辩幻灯片都是用 LaTeX 完成的，当然我的特立独行也给老师带来了不少麻烦，感谢金老师和丽丽师姐的包容与信任），LaTeX 比较简单，不像 C 语言、VB 那样烧脑，但正是它的简单却让我实实在在感受到了敲代码的快乐，算是我真正意义上的入门语言。
+        <br/>
+        ......
+        <br/>
+        知识都是相通的，通过 LaTeX 精美的排版，又开始对其他其他方面又了追求，Python 和 HTML，HTML 和 CSS 又是分不开的（这才有了本网页），正如汽车修理工随身携带扳手一样，代码敲得快，全靠 Git 带。
         </p>
     </div>
     
@@ -88,42 +92,38 @@
         后来反复看《赌圣》系列、《逃学》系列，打发了不少时间。
         <br/>
         再后来看《大话西游》、《喜剧之王》，格局打开。
+        <br/>
+        ......
+        <br/>
+        喂，我摆地摊养你啊！
         </p>
     </div>
     
-<!--     <a name="maozedong"></a>
+    <a name="maozedong"></a>
     <div class="scrollblock block-yellow">
-        <h2>推送改动</h2>
+        <h2>毛泽东</h2>
         <p>
-            你的改动现在已经在本地仓库的 <b>HEAD</b> 中了。执行如下命令以将这些改动提交到远端仓库：<br />
-            <code>git push origin master</code><br />
-            可以把 <i>master</i> 换成你想要推送的任何分支。
-            <br /><br />
-            如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加：<br />
-            <code>git remote add origin &lt;server&gt;</code><br />
-            如此你就能够将你的改动推送到所添加的服务器上去了。<br />
-
+        毛泽东（1893～1976）伟大的马克思主义者，无产阶级革命家、战略家和理论家，中国共产党、中国人民解放军和中华人民共和国的主要缔造者和领导人，诗人，书法家。
+        <br/>
+        ......
+        <br/>
+        天降猛男，挽狂澜于既到，扶大厦之将倾。
+        <br/>
+        ......
+        <br/>
+        “惜秦皇汉武，略输文采；唐宗宋祖，稍逊风骚。”
         </p>
     </div>
     
-    <a name="branching"></a>
-    <div class="scrollblock block-branching">
-        <h2>分支</h2>
+    <a name="pingpangqiu"></a>
+    <div class="scrollblock block-black">
+        <h2>乒乓球</h2>
         <p>
-    		分支是用来将特性开发绝缘开来的。在你创建仓库的时候，<i>master</i> 是“默认的”。在其他分支上进行开发，完成后再将它们合并到主分支上。
-		</p>
-        <img src="img/branches.png" alt="" />
-        <p>
-            创建一个叫做“feature_x”的分支，并切换过去：<br />
-            <code>git checkout -b feature_x</code><br />
-            切换回主分支：<br />
-            <code>git checkout master</code><br />
-            再把新建的分支删掉：<br />
-            <code>git branch -d feature_x</code><br />
-			除非你将分支推送到远端仓库，不然该分支就是 <i>不为他人所见的</i>：<br />
-            <code>git push origin &lt;branch&gt;</code>
+    	我喜欢打乒乓球。
         </p>
     </div>
+    
+
     <a name="update"></a>
     <div class="scrollblock block-merging">
         <h2>更新与合并</h2>
@@ -140,6 +140,9 @@
             <code>git diff &lt;source_branch&gt; &lt;target_branch&gt;</code>
         </p>
     </div>
+    
+<!--
+
     <a name="tagging"></a>
     <div class="scrollblock block-tagging">
         <h2>标签</h2>
