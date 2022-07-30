@@ -117,12 +117,13 @@ code {
 .block-comments h3 { font-size: 16px; }
 .block-comments #disqus_thread { width: 600px; text-align: left; margin-left: auto; margin-right: auto; }
 
-.footer { 
+.footer p { 
     background-color: black; 
     position: relative;
 	margin: 0;
 	width: 100%;
-    color: white;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    color: gray;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size:16px
 }
