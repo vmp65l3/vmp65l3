@@ -38,28 +38,6 @@ p {
     line-height: 200%;
 }
 
-a:hover {
-    color:#000;
-    font-size:24px;
-    text-decoration: underline;
-}
-
-a, a:visited {
-	color: #000;
-    font-size: 24px;
-    text-decoration: none;
-}
-
-/* blockquote {
-    background-color: gray;
-	font-style: normal;
-/*     border-radius: 10px; */
-    color: white;
-    padding: 5px;
-    font-family: menlo, monospace;
-    border-left: 3px solid #ccc;
-} */
-
 
 
 code {
@@ -84,10 +62,10 @@ code {
 
 .block-titlepage { background-color: white; padding-bottom: 60px; }
 
-.block-toc { background-color: #348fd4; }
-.block-toc h2 { color: #06406c; }
-.block-toc a { color: #FFF; font-size: 40px; font-weight: normal;font-style: normal; background-color: #06406c; padding: 10px 15px; border-radius: 10px; text-decoration: none; }
-.block-toc a:hover { text-decoration: underline; }
+.block-blue { background-color: #348fd4; }
+.block-blue h2 { color: #06406c; }
+.block-blue a { color: #FFF; font-size: 40px; font-weight: normal;font-style: normal; background-color: #06406c; padding: 10px 15px; border-radius: 10px; text-decoration: none; }
+.block-blue a:hover { text-decoration: underline; }
 
 .block-intro { background-color: #06406c; }
 .block-intro h2 { color: white; }
@@ -98,9 +76,9 @@ code {
 .block-white p { color: #000; }
 
 
-.block-deepred { background-color: #4c0d09; }
-.block-deepred h2 { color: #ddd; }
-.block-deepred p { color: #ddd; }
+.block-yellow { background-color: #ffc19f }
+.block-yellow a { color: #000; font-size: 40px; font-weight: normal;font-style: normal; background-color: #FEAE83; padding: 10px 15px; border-radius: 10px; text-decoration: none; }
+.block-yellow a:hover { text-decoration: underline; }
 
 .block-orange { background-color: #cc4037; }
 .block-yellow { background-color: #ffc19f; }
@@ -139,30 +117,12 @@ code {
 .block-comments h3 { font-size: 16px; }
 .block-comments #disqus_thread { width: 600px; text-align: left; margin-left: auto; margin-right: auto; }
 
-.tower {
-    display: block;
-    width: 180px;
-    height: 260px;
-    position: absolute;
-    top: 330px;
-    right: 0;
-    background: #FFF url(../img/git-tower.png) no-repeat;
-}
-
-.cheatsheet {
-    display: block;
-    width: 180px;
-    height: 250px;
-    position: absolute;
-    top: 346px;
-    left: 0;
-    background: #FFF url(../img/cheatsheet.png) no-repeat;
-}
-
-.announcement {
-    margin-bottom: 40px;
-}
-
-.announcement img {
-    border-radius: 4px;
+.footer { 
+    background-color: black; 
+    position: relative;
+	margin: 0;
+	width: 100%;
+    color: white;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
